@@ -1,0 +1,7 @@
+One of the important in software testing is analysis - so if you did some load/stress or any other perfomance tests you need to analysis your results.
+So you can check your results more insightfully by Jmeter options to displaying the results in different graphs.
+To do this, use the appropriate commands in CMD
+
+If you open CMD, then you need to :
+
+jmeter -n -t "Files path which you want analysis" -l "Path where do you want to put the CSV file" -e -o "Path -where do you want to place the data folder - a dedicated index.html file will be created here"
